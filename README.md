@@ -1,8 +1,8 @@
 # RF2-to-OWL
 
-This is a perl script to convert an International Edition RF2 package to OWL XML/RDF format. It has previously been distributed within the International Edition of SNOMED CT, but is now being made available under an Apache v2 license with the SNOMEd International GitHub repositories.
+This is a perl script to convert an International Edition RF2 package to OWL XML/RDF format. It has previously been distributed within the International Edition of SNOMED CT, but is now being made available under an Apache v2 license with the SNOMED International GitHub repositories.
 
-It has currently been tested by SNOMED International with the International Edition of SNOMED CT, and cannot be guaranteed to work with otnher editions or extensions of SNOMED CT.
+It has currently been tested by SNOMED International with the International Edition of SNOMED CT, and cannot be guaranteed to work with other editions or extensions of SNOMED CT.
 
 ## Running the script
 
