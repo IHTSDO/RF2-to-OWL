@@ -227,8 +227,9 @@ sub assigndatafiles
 # variable for year of release $year
 # variable for release version $release 
 #----------------------------------------
-  $year = substr($conceptsFileName, 26, 4);
-  $release = substr($conceptsFileName, 26, 8);
+  $release = $conceptsFileName ;
+  $release =~ s/.*_(\d+)\.txt/$1/;
+  $year = substr($release, 0, 4);
 
 #-------------------------------------------------------------------------------
 # File 1: The RF2 concepts table snapshot.
