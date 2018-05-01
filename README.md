@@ -1,4 +1,10 @@
-# RF2-to-OWL
+
+
+**This implementation is not recommended for Snomed releases from July 2018 onwards because it does not deal with the latest DL enhancements or MRCM driven grouping.**
+
+**The official project for converting RF2 to OWL is the [Snomed OWL Toolkit](https://github.com/IHTSDO/snomed-owl-toolkit).**
+
+# RF2-to-OWL (Deprecated)
 
 This is a perl script to convert an International Edition RF2 package to OWL XML/RDF format. It has previously been distributed within the International Edition of SNOMED CT, but is now being made available under an Apache v2 license with the SNOMED International GitHub repositories.
 
